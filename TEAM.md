@@ -64,7 +64,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 ---
 
-### Dat-2A202603581
+### TrinhQuocDat-2A202603581
 
 **Phần việc phụ trách:**
 
@@ -87,7 +87,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
-- Người dùng thường không lười tự làm, vấn đề là tài liệu không rõ theo từng ngành, nên cần checklist giải thích bằng ngôn ngữ đời thường. Mình chỉ nhận ra điều này khi phỏng vấn người thật, không thể suy ra từ bàn làm việc
+- Người dùng thường không lười tự làm, vấn đề là tài liệu không rõ theo từng ngành, nên cần checklist giải thích. Bọn em chỉ nhận ra điều này khi phỏng vấn người thật, không thể suy ra từ bàn làm việc
 
 ---
 
