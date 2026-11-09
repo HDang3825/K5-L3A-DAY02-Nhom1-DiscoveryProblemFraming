@@ -150,16 +150,16 @@ HIỆN TẠI — 390 phút (~6.5 tiếng/môn)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày Problem Card #1 (Thủ tục pháp lý cho hộ kinh doanh) trước cả nhóm. | Được nhất trí chọn làm bài toán chung|
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: *"Chỉ cần dùng grep log theo error code đã giải quyết được 80% chưa?"* (cho bạn Tiến) | Giúp nhóm phân tích rõ tính vừa sức và ranh giới khả thi của từng đề tài để không bị lan man|
+| Nhận phản biện | Câu hỏi tôi nhận được: *"Văn bản luật thay đổi liên tục và ngôn ngữ pháp lý phức tạp, làm sao đảm bảo giải pháp không bị bịa đặt (hallucination) gây phạt tiền cho người dùng?"* (Tiến hỏi) | Tôi đã sửa gì: Bổ sung ranh giới (boundary) nghiêm ngặt là AI không thay thế tư vấn pháp lý, đồng thời thiết kế cơ chế người kiểm duyệt (HITL) và phương án quay về (fallback) |
+| Gom cluster / cây OST | Đề xuất gom 4 bài toán thành 2 nhóm lớn (Tra cứu/Tổng hợp tài liệu và Rà soát/Đối soát dữ liệu), cùng nhóm nhận diện và gạch bỏ các giải pháp công nghệ trá hình. | Dựng thành công cây OST chuẩn, chỉ tập trung vào outcome và opportunity của người dùng mà không bị sa đà vào tính năng công nghệ. |
+| Chọn candidate problem | Trình bày các luận điểm mang tính cấp thiết và bằng chứng thực tế từ người thân kinh doanh quán ăn | Nhóm đạt được sự đồng thuận cao khi chốt bài toán thủ tục hành chính cho hộ kinh doanh. |
+| Kiểm chứng / research | Lập bảng Assumption Map và tham gia tổng hợp kết quả phỏng vấn 3 chủ quán thật theo The Mom Test; trực tiếp tra cứu Cổng Dịch vụ công Quốc gia. | Phát hiện insight: người dùng sợ nhất là thiếu các giấy tờ con đặc thù cấp phường; giúp nhóm thu hẹp bài toán vào ngành F&B và bán lẻ. |
+| Quy trình nhóm | Trực tiếp phác thảo và vẽ sơ đồ Before/After (Mermaid), phân tích chi tiết thời gian và bottleneck chính. | Giúp cả nhóm hình dung rõ mức độ cắt giảm thời gian từ 420 phút xuống dưới 60 phút. |
+| Problem Statement | Soạn thảo Problem Statement v0 và sau đó nâng cấp lên v1 có bổ sung điểm can thiệp AI, mức độ rủi ro và người kiểm tra. | Định hình được bài toán rõ ràng, có tiêu chí đo lường định lượng cụ thể. |
+| Mức can thiệp AI | Phân tích và lập luận vì sao không chọn Rule (quá cứng nhắc với ngôn ngữ luật) và vì sao không chọn Agent (rủi ro pháp lý quá cao), bảo vệ lựa chọn Workflow. | Nhóm thống nhất kiến trúc Workflow là mức can thiệp tối ưu và an toàn nhất. |
+| Quyết định | Đề xuất quyết định Go phạm vi pilot nhỏ kèm ngưỡng dừng 4 tuần đo lường được. | Hoàn thiện quyết định cuối cùng có căn cứ khoa học và tính thực tế cao. |
 
 ---
 
@@ -167,12 +167,12 @@ HIỆN TẠI — 390 phút (~6.5 tiếng/môn)
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Gợi ý thêm góc nhìn từ 4 lăng kính | Mở rộng thêm các khía cạnh về quản lý nguyên liệu và đối soát hóa đơn viết tay | AI ban đầu đề xuất solution mang tính chatbot AI quá rộng | Lọc bỏ bớt, viết lại theo form Job Story gắn với số liệu đo lường|
+| CP1 Scan | Gợi ý thêm góc nhìn từ 4 lăng kính | Mở rộng thêm các khía cạnh về quản lý nguyên liệu và đối soát hóa đơn viết tay | AI ban đầu đề xuất solution mang tính chatbot AI quá rộng | Lọc bỏ bớt, viết lại theo form Job Story gắn với số liệu đo lường |
 | CP2 Problem Card | Đóng vai PM hoài nghi để phản biện 3 Problem Card | Chỉ ra được các rủi ro thực tế: quy định địa phương dị biệt ở Card 1, giải pháp Rule đủ dùng ở Card 2, và nguy cơ thụ động khi học ở Card 3 | AI có xu hướng đề xuất biến cả 3 bài toán thành Agent tự động hóa hoàn toàn | Nhận định lại ranh giới, giữ quyền kiểm soát cho con người và ưu tiên giải pháp bán thủ công / workflow |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Tìm kiếm các công cụ và giải pháp tương tự đã tồn tại trên thị trường | Liệt kê nhanh các nền tảng dịch vụ công và thư viện văn bản luật | Link và trích dẫn văn bản AI đưa ra đôi khi bị sai lệch hoặc dẫn vào nghị định cũ đã hết hiệu lực | Tự mình truy cập trực tiếp vào dichvucong.gov.vn và thuvienphapluat.vn để kiểm tra đối chiếu lại văn bản hiện hành |
+| CP5 Quy trình | Hỗ trợ định dạng cú pháp sơ đồ Mermaid từ mô tả quy trình | Xuất mã Mermaid nhanh chóng và dễ nhìn | AI hay tự động gộp bước đọc luật và bước điền hồ sơ làm mất đi vị trí bước nghẽn (bottleneck) | Tự tay tách riêng từng bước, gán số phút đo lường thực tế và đánh dấu rõ nhãn BOTTLENECK |
+| CP5–6 Problem Statement | Nhờ AI chỉ ra các lỗ hổng phản biện trong Problem Statement | Gợi ý câu hỏi về sự khác biệt quy định giữa các quận huyện | AI thường có xu hướng viết lại câu chữ bằng các từ ngữ hoa mỹ nhưng làm mất tính định lượng | Giữ nguyên các chỉ số baseline/target đo bằng phút và bổ sung checklist đối soát thực tế tại bộ phận một cửa |
+| CP6 Mức can thiệp / quyết định | Nhờ AI phân tích các khía cạnh rủi ro theo khung Marty Cagan | Gợi ý góc nhìn đa chiều về rủi ro khả thi (Feasibility) và vận hành (Viability) | AI khuyên nên làm Agent để tự động hóa toàn bộ việc nộp đơn | Kiên quyết giữ mức Workflow vì nhận định rõ rủi ro pháp lý và trách nhiệm cá nhân trong dịch vụ công |
 
 ---
 
@@ -180,22 +180,34 @@ HIỆN TẠI — 390 phút (~6.5 tiếng/môn)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
+ em cảm thấy các bạn có cách giải quyết vấn đề và suy nghĩ rất hay khi chọn được các nỗi đau trong chính ngành, cách các bạn kĩ lượng, nói chung là tuy mới gặp nhưng cảm thấy học được từ tư duy các bạn rất nhiều
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
+không
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
+Tôi đã đổi ý rất rõ rệt sau khi nghe câu hỏi phản biện của bạn Tiến: "Văn bản luật thay đổi liên tục, làm sao chắc chắn AI không tư vấn sai gây phạt tiền?". Ban đầu, tôi khá tự tin rằng chỉ cần nạp văn bản luật vào là AI sẽ trả lời đúng 100%. Phản biện của Tiến khiến tôi giật mình nhận ra rủi ro pháp lý là cực kỳ nghiêm trọng. Sau đó, tôi đã chủ động thay đổi thiết kế: không để AI tự đưa ra kết luận pháp lý, mà bắt buộc phải có bước con người kiểm tra (HITL), kèm theo phương án quay về tài liệu gốc và bổ sung checklist 3 câu hỏi để người dùng tự xác nhận lại với cán bộ một cửa.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
+không
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**  
+Điều khó nhất là việc kìm nén ham muốn đưa giải pháp vào câu chữ và việc định nghĩa một Success Metric đo lường được có căn cứ. Rất dễ rơi vào cái bẫy viết những câu chung chung như "giúp người dùng làm hồ sơ nhanh hơn và tiện hơn". Để viết được metric cụ thể (giảm từ 420 phút xuống dưới 60 phút, tỷ lệ đạt 85%), nhóm đã phải ngồi tính toán kỹ lưỡng từng bước trong quy trình Before/After và xác định rõ cách đo lường trên một tập mẫu thử nghiệm thực tế.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
+Nếu được làm lại từ đầu buổi, e sẽ dành thêm thời gian phỏng vấn thêm một cán bộ làm việc tại bộ phận một cửa để có cái nhìn từ cả hai phía (người dân và người tiếp nhận hồ sơ), thay vì chỉ phỏng vấn phía chủ hộ kinh doanh. Đồng thời, e sẽ phản biện nhóm mạnh hơn ngay từ đầu khi các bạn đề xuất các tính năng tự động hóa phức tạp, để nhóm tiết kiệm thời gian tranh luận và hội tụ về kiến trúc Workflow đơn giản sớm hơn.
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.  
+Bài toán của nhóm xuất phát từ việc chủ hộ kinh doanh ngành F&B mất trung bình 420 phút đi lại và đọc các văn bản thông tư pháp lý phức tạp, dẫn đến hồ sơ bị trả lại nhiều lần và nguy cơ bị phạt tiền. Quy trình hiện tại bị nghẽn nặng nhất ở khâu đọc hiểu thông tư luật và xử lý giấy tờ bị thiếu. Nhóm đặt mục tiêu giảm thời gian chuẩn bị xuống dưới 60 phút và nâng tỷ lệ hồ sơ hợp lệ lần đầu từ 40% lên 85%. Ranh giới (boundary) an toàn là AI chỉ trích xuất và chuyển dịch thông tư thành checklist dễ hiểu, tuyệt đối không tự ý nộp hồ sơ hay tư vấn thay luật sư, bắt buộc con người phải tự rà soát. Nhóm chọn mức can thiệp là **Workflow** kết hợp Rule phân loại ngành và AI đọc hiểu, vì Rule đơn thuần không hiểu được ngôn ngữ luật còn Agent thì quá rủi ro pháp lý. Quyết định cuối cùng là **Go** thử nghiệm pilot nhỏ trên 20 quán ăn, với ngưỡng dừng rõ ràng là nếu sau 4 tuần tỷ lệ hợp lệ không đạt 75% thì dừng lại quay về cẩm nang checklist in sẵn.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Cổng Dịch vụ công Quốc gia (https://dichvucong.gov.vn/)
+- Thư Viện Pháp Luật Việt Nam (https://thuvienphapluat.vn/)
+- Luật Doanh nghiệp 2020 và Nghị định 01/2021/NĐ-CP về đăng ký kinh doanh.
+- Google People + AI Research (PAIR) Guidebook.
+- Sách Testing Business Ideas (David J. Bland & Alex Osterwalder).
