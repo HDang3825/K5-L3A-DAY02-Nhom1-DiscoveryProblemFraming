@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Võ Lê Hải Đăng | 2A202603577 | Đề xuất bài toán, phụ trách Quy trình & Problem Statement | |
 | 2 | Đạt | *(Điền sau)* | Phản biện, hỗ trợ kiểm chứng thực tế | |
-| 3 | Hùng | *(Điền sau)* | Phụ trách Research giải pháp có sẵn | |
+| 3 | Nguyễn Xuân Hùng | 2A202603599 | Phụ trách Research giải pháp có sẵn | https://github.com/XuanHung1703 |
 | 4 | Tiến | *(Điền sau)* | Phản biện, hỗ trợ đánh giá rủi ro kỹ thuật | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
@@ -84,25 +84,28 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 ---
 
-### Hung-MSSV
-
-*(Phần dành cho bạn Hùng tự điền)*
+### NguyenXuanHung-2A202603599
 
 **Phần việc phụ trách:**
 
--
+- Đề xuất và trình bày (pitch) candidate problem về đối chiếu hoạt động và số liệu báo cáo ở giai đoạn hội tụ nhóm (CP3).
+- Phụ trách chính phần Research giải pháp có sẵn trên thị trường (CP4 — Mục 3.3) và phân tích khoảng trống/rủi ro cho bài toán của nhóm.
+- Tham gia thảo luận gom nhóm (Cluster B), chấm điểm shortlist (CP3) và đánh giá 4 rủi ro để ra quyết định Go kèm ngưỡng dừng (CP6).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Trình bày Problem Card về đối chiếu hoạt động (Mục 2.1), phân tích lý do bài toán gặp rào cản về quyền truy cập dữ liệu thực tế trong phạm vi buổi lab để nhóm hội tụ sang bài toán thủ tục pháp lý hộ kinh doanh.
+- Trực tiếp tra cứu, kiểm chứng đường link và lập bảng phân tích 3 nền tảng hiện có (Cổng Dịch vụ công Quốc gia, Thư Viện Pháp Luật, LuatVietnam), chỉ rõ từng công cụ giải quyết bước nào và còn bỏ trống bước chuyển dịch văn bản luật sang checklist đời thường.
+- Đóng góp ý kiến xây dựng tiêu chí đánh giá đầu ra của AI (Eval) về tính chính xác nguồn dẫn chiếu (Grounding) và thiết lập ngưỡng dừng sau 4 tuần pilot.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `group_report.md`: Mục 2.1 (Candidate #3), Mục 2.2 (Cluster B), Mục 2.4 (Chấm điểm shortlist), Mục 3.3 (Bảng Research giải pháp đã có), Mục 8 (Đánh giá 4 rủi ro và Quyết định).
+- Báo cáo cá nhân: `report/individual/2A202603599_NguyenXuanHung.md`.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Hiểu rõ tầm quan trọng của bước Research giải pháp có sẵn: thay vì tự xây dựng lại nguồn dữ liệu pháp luật từ đầu, nhóm tận dụng nguồn chuẩn từ Cổng Dịch vụ công Quốc gia và chỉ dùng AI (mức Workflow) ở đúng điểm nghẽn là chuyển hóa thông tư phức tạp thành checklist dễ hiểu có con người kiểm duyệt (HITL).
 
 ---
 
