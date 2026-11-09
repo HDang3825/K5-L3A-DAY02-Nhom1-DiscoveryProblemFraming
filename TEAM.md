@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Võ Lê Hải Đăng | 2A202603577 | Đề xuất bài toán, phụ trách Quy trình & Problem Statement | |
-| 2 | Đạt | *(Điền sau)* | Phản biện, hỗ trợ kiểm chứng thực tế | |
+| 2 | Đạt | 2A202603581 | Phản biện, hỗ trợ kiểm chứng thực tế | |
 | 3 | Nguyễn Xuân Hùng | 2A202603599 | Phụ trách Research giải pháp có sẵn | https://github.com/XuanHung1703 |
 | 4 | Nguyễn Hữu Tiến | 2A202603598 | Phản biện, hỗ trợ đánh giá rủi ro kỹ thuật | |
 
