@@ -121,16 +121,16 @@ HIỆN TẠI — khoảng 20 phút sửa lại/bản (khi bị nhắc lỗi lặ
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày Problem Card #1 (Gom yêu cầu cho task mới) trước cả nhóm | Mọi người có bàn luận và đánh giá tương dối về tính khả thi nhưng còn hạn chế về data |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:"Về vấn đề data từ các bộ luật có nhiều không và mình có thể sử dụng những cơ sở hạ tầng lưu trữ nào và có mất phí không?" (cho bạn Đăng) | Giúp nhóm có thể hiểu hơn về data của Đăng là được lấy từ đâu và có sức chứa như nào và dùng cơ sở hạ tầng nào |
+| Nhận phản biện | Câu hỏi tôi nhận được:"Bài toán này có thật sự cần thiết khi phải làm 1 dự án lớn hay công ty có chấp nhận chi trả cho 1 đội nhóm AI để làm hay không?"(bạn Đăng hỏi) | Tôi đã sửa gì:"Mình sẽ scope dự án lớn hơn không chỉ để phục vụ cho 1 mục đích hay 1 bộ phận thực tập sinh mà còn mở rộng lên cho cả công ty dùng và tra cứu thông tin" |
+| Gom cluster / cây OST | Đề xuất gom các bài toán của nhóm theo vấn đề gốc chung (thông tin đầu vào của task thiếu hoặc mơ hồ, thông tin nội bộ nằm rải rác khó tra cứu); cùng nhóm vẽ cây OST từ outcome → opportunity → solution và gạch bỏ các solution chỉ thiên về công nghệ | Cây OST bám vào nhu cầu của người dùng thay vì tính năng; bài toán gom yêu cầu cho task mới nằm rõ trong một cụm opportunity |
+| Chọn candidate problem | Trình bày lý do chọn Problem Card #1 theo 3 tiêu chí: tần suất xảy ra, mức ảnh hưởng tới người làm task, và khả năng tiếp cận data (trả lời lại mối lo về data mà bạn Đăng nêu) | Nhóm thống nhất chọn bài toán này làm candidate problem để đi tiếp |
+| Kiểm chứng / research | Lập Assumption Map, chọn giả định rủi ro nhất (“[người dùng thật sự mất nhiều thời gian vì yêu cầu task không rõ]”) để kiểm chứng; phỏng vấn [số người] [thực tập sinh / mentor] theo nguyên tắc The Mom Test | Rút ra insight: [điều phát hiện chính, ví dụ vấn đề nằm ở bước hiểu yêu cầu chứ không phải bước làm]; giúp nhóm thu hẹp phạm vi bài toán |
+| Quy trình nhóm | Phác thảo sơ đồ Before/After (Mermaid) cho quy trình nhận và làm rõ task; chỉ ra các bottleneck chính như hỏi đi hỏi lại nhiều lần, thông tin nằm ở nhiều nơi | Cả nhóm hình dung được chỗ mất thời gian nhất và mục tiêu giảm |
+| Problem Statement | Soạn Problem Statement v0, sau đó nâng lên v1 bổ sung người dùng, bối cảnh, điểm can thiệp của AI, mức độ rủi ro, người kiểm tra và tiêu chí đo lường | Bài toán được định hình rõ ràng, có tiêu chí đo lường cụ thể để đánh giá sau này |
+| Mức can thiệp AI | Phân tích vì sao không chọn Rule (yêu cầu task quá đa dạng, luật cứng không bao phủ hết) và vì sao không chọn Agent (tự quyết định trên dữ liệu nội bộ, rủi ro sai lệch cao); đề xuất Workflow có bước người duyệt | Nhóm thống nhất chọn Workflow làm mức can thiệp AI vừa đủ và an toàn |
+| Quyết định | Đề xuất quyết định Go với phạm vi pilot nhỏ ([một nhóm / một bộ phận]), kèm ngưỡng dừng sau [số tuần] nếu chưa đạt chỉ số đo lường | Hoàn thiện quyết định cuối cùng có căn cứ và có điều kiện dừng rõ ràng |
 
 ---
 
@@ -138,12 +138,12 @@ HIỆN TẠI — khoảng 20 phút sửa lại/bản (khi bị nhắc lỗi lặ
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card |  | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5-6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Nhờ AI gợi ý thêm các góc nhìn về việc nhận và làm rõ task mới ở thực tập sinh, mentor và quản lý | Mở rộng được các khía cạnh tôi chưa nghĩ tới, như task thiếu tiêu chí hoàn thành, thông tin nằm rải rác ở nhiều nơi | AI đưa ra danh sách chung chung, nhiều ý không gắn với bối cảnh thực tế của công ty | Lọc bớt, chỉ giữ các ý tôi có thể kiểm chứng và viết lại theo form Job Story |
+| CP2 Problem Card | Nhờ AI đóng vai phản biện để chất vấn Problem Card #1 (Gom yêu cầu cho task mới)  | Chỉ ra được các điểm yếu như thiếu bằng chứng về mức độ thường xuyên của vấn đề, và phạm vi quá rộng | AI có xu hướng đẩy bài toán thành một hệ thống lớn tự động hóa toàn bộ, vượt quá khả năng của nhóm |Tôi thu hẹp phạm vi, giữ con người ở vai trò quyết định và đặt câu hỏi: “bài toán này có đủ cần thiết để công ty đầu tư không?” |
+| CP4 Research | Nhờ AI tìm các công cụ và giải pháp tương tự đã có để quản lý yêu cầu và tra cứu tài liệu nội bộ | Liệt kê nhanh được nhiều nhóm công cụ để tôi so sánh | Một số công cụ, tính năng hoặc nguồn AI nêu không chính xác hoặc đã lỗi thời, có link không mở được | Tôi tự kiểm tra từng nguồn trên trang chính thức của công cụ và chỉ giữ những gì xác minh được |
+| CP5 Quy trình | Nhờ AI chuyển mô tả quy trình bằng lời thành sơ đồ Mermaid (Before/After) | Xuất mã Mermaid nhanh và đúng cú pháp, dễ chỉnh | AI tự gộp các bước, và không biết bước nào thực sự tốn thời gian nên đặt sai vị trí bottleneck | Tôi tách từng bước, gán số phút thực tế [số liệu đo được] và đánh dấu rõ nhãn BOTTLENECK |
+| CP5-6 Problem Statement | Nhờ AI chỉ ra lỗ hổng trong Problem Statement v0 | Gợi ý các câu hỏi tôi chưa trả lời được, ví dụ bài toán áp dụng cho nhóm nào, đo thành công bằng gì | AI hay viết lại bằng các từ ngữ hoa mỹ nhưng làm mất tính định lượng | Tôi giữ nguyên các chỉ số baseline/target đo bằng thời gian và số lần hỏi lại, rồi bổ sung phạm vi người dùng |
+| CP6 Mức can thiệp / quyết định | Nhờ AI phân tích các khía cạnh rủi ro theo Rule / Workflow / Agent | Gợi ý góc nhìn đa chiều về tính khả thi (data, hạ tầng lưu trữ, chi phí) và vận hành | AI khuyên nên làm Agent tự động đọc và trả lời toàn bộ, bỏ qua rủi ro trả lời sai khi dữ liệu nội bộ chưa đầy đủ | Tôi giữ mức Workflow có bước người duyệt, vì tôi thấy rõ rủi ro dữ liệu và trách nhiệm khi AI trả lời sai |
 
 ---
 
@@ -153,17 +153,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Em thấy mọi người có những quan điêm cũng như ý tưởng từ những khóa cạnh mới mà em chưa được tiếp xúc qua. Em đã được mở mang kiến thức từ các bạn
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Không có ạ
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Lúc đầu em đánh giá dự án của em rất khả thi vì nó đơn giản và nhắm vào đối tượng cụ thể. Nhưng khi bạn Đăng có hỏi em về câu hỏi "Về vấn đề data từ các bộ luật có nhiều không và mình có thể sử dụng những cơ sở hạ tầng lưu trữ nào và có mất phí không?" Thì đã phải mở scope lên rộng hơn. Từ đó thì lại là một bài toán lớn và khó khăn với bọn em. Nên chúng em đã bỏ qua dự án này
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Không có ạ
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều em cảm thấy khó khăn nhất là làm sao cân bằng giữa việc đề xuất giải pháp và xác định một Success Metric thực sự cụ thể, có cơ sở đo lường rõ ràng. Ban đầu, em dễ bị cuốn vào việc mô tả những lợi ích mang tính chung chung như “giúp người dùng hoàn thành hồ sơ nhanh chóng và thuận tiện hơn”. Tuy nhiên, để xây dựng được các chỉ số có tính thực tiễn, chẳng hạn như rút ngắn thời gian xử lý từ 420 phút xuống dưới 60 phút và đạt tỷ lệ thành công 85%, em đã phải cùng nhóm phân tích chi tiết từng công đoạn trong quy trình Before/After, tính toán mức độ cải thiện và xác định phương pháp đo lường dựa trên dữ liệu từ tập mẫu thử nghiệm thực tế.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Em sẽ suy nghĩ kĩ hơn về đối tượng em muốn hướng đến trong dự án, sẽ cố gắng tìm scope vừa và cụ thể hơn. Phản biên nhóm mạnh nhất ở điểm thay vì cứ dùng AI hay AI Agent thì mình sẽ hướng đến những tối ưu từ thiết kế non AI, rule hay luồng automation
+
 **6.7. Hiểu bài:** giải thích bằng 5-8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Nhóm em xác định vấn đề chính là các chủ hộ kinh doanh mất trung bình 420 phút để tìm hiểu quy định pháp lý và chuẩn bị hồ sơ, dẫn đến tình trạng thiếu giấy tờ, hồ sơ bị trả lại nhiều lần. Vì vậy, nhóm đặt mục tiêu rút ngắn thời gian xuống dưới 60 phút và nâng tỷ lệ hồ sơ hợp lệ lần đầu từ 40% lên 85%. Về giải pháp, nhóm lựa chọn Workflow kết hợp Rule phân loại ngành và AI đọc hiểu thông tư, với nguyên tắc AI chỉ hỗ trợ tạo checklist, mọi kết quả đều phải được con người rà soát. Nhóm quyết định Go thử nghiệm trên 20 quán ăn trong 4 tuần; nếu tỷ lệ hồ sơ hợp lệ không đạt 75% thì sẽ dừng và quay lại sử dụng checklist in sẵn.
 
 ---
 
