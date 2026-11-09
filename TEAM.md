@@ -68,17 +68,17 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--Phụ trách chính CP4 Kiểm chứng cùng Tiến: lập Assumption Map, chọn giả định cần kiểm chứng và thực hiện phỏng vấn người dùng thật.
--Hỗ trợ Đăng ở CP5 Problem Statement v0.
--Đề xuất và thuyết trình (pitch) candidate problem về gom yêu cầu cho task mới trong sprint, đồng thời phản biện các bài của bạn khác.
+- Phụ trách chính CP4 Kiểm chứng cùng Tiến: lập Assumption Map, chọn giả định cần kiểm chứng và thực hiện phỏng vấn người dùng thật.
+- Hỗ trợ Đăng ở CP5 Problem Statement v0.
+- Đề xuất và thuyết trình (pitch) candidate problem về gom yêu cầu cho task mới trong sprint, đồng thời phản biện các bài của bạn khác.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--Lập Assumption Map với 5 giả định và chọn kiểm chứng trước giả định.
--Kiểm chứng: phỏng vấn 3 chủ hộ kinh doanh (F&B, bán lẻ) và khảo sát nhanh 7 người quen có kinh doanh. Kết quả là 2/3 người từng bị trả hồ sơ ít nhất 2 lần và 6/7 người muốn có checklist rõ ràng, nhưng cũng có tín hiệu phản bác từ người cho rằng không cần đăng ký hoặc thuê dịch vụ cho nhanh.
--Từ các cuộc phỏng vấn, giúp nhóm thu hẹp về chủ hộ kinh doanh ngành F&B và bán lẻ có cửa hàng, và bổ sung giải pháp không dùng AI (checklist tĩnh dạng in sẵn).
--Hỗ trợ soạn Problem Statement
--Pitch Problem Card #2 (gom yêu cầu task mới), đặt câu hỏi phản biện cho Tiến: “Chỉ cần dùng công cụ grep log theo error code hoặc setup alert đơn giản đã giải quyết được 80% chưa?”, và nhận câu hỏi của Đăng về việc mỗi team dùng công cụ lưu trữ khác nhau.
+- Lập Assumption Map với 5 giả định và chọn kiểm chứng trước giả định.
+- Kiểm chứng: phỏng vấn 3 chủ hộ kinh doanh (F&B, bán lẻ) và khảo sát nhanh 7 người quen có kinh doanh. Kết quả là 2/3 người từng bị trả hồ sơ ít nhất 2 lần và 6/7 người muốn có checklist rõ ràng, nhưng cũng có tín hiệu phản bác từ người cho rằng không cần đăng ký hoặc thuê dịch vụ cho nhanh.
+- Từ các cuộc phỏng vấn, giúp nhóm thu hẹp về chủ hộ kinh doanh ngành F&B và bán lẻ có cửa hàng, và bổ sung giải pháp không dùng AI (checklist tĩnh dạng in sẵn).
+- Hỗ trợ soạn Problem Statement
+- Pitch Problem Card #2 (gom yêu cầu task mới), đặt câu hỏi phản biện cho Tiến: “Chỉ cần dùng công cụ grep log theo error code hoặc setup alert đơn giản đã giải quyết được 80% chưa?”, và nhận câu hỏi của Đăng về việc mỗi team dùng công cụ lưu trữ khác nhau.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
@@ -87,7 +87,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
--Người dùng thường không lười tự làm, vấn đề là tài liệu không rõ theo từng ngành, nên cần checklist giải thích bằng ngôn ngữ đời thường. Mình chỉ nhận ra điều này khi phỏng vấn người thật, không thể suy ra từ bàn làm việc
+- Người dùng thường không lười tự làm, vấn đề là tài liệu không rõ theo từng ngành, nên cần checklist giải thích bằng ngôn ngữ đời thường. Mình chỉ nhận ra điều này khi phỏng vấn người thật, không thể suy ra từ bàn làm việc
 
 ---
 
