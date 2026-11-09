@@ -15,7 +15,9 @@
 | 1 | Võ Lê Hải Đăng | 2A202603577 | Đề xuất bài toán, phụ trách Quy trình & Problem Statement | |
 | 2 | Đạt | *(Điền sau)* | Phản biện, hỗ trợ kiểm chứng thực tế | |
 | 3 | Nguyễn Xuân Hùng | 2A202603599 | Phụ trách Research giải pháp có sẵn | https://github.com/XuanHung1703 |
-| 4 | Tiến | *(Điền sau)* | Phản biện, hỗ trợ đánh giá rủi ro kỹ thuật | |
+| 4 | Nguyễn Hữu Tiến | 2A202603598 | Phản biện, hỗ trợ đánh giá rủi ro kỹ thuật | |
+
+
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -109,22 +111,26 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 ---
 
-### Tien-MSSV
-
-*(Phần dành cho bạn Tiến tự điền)*
+### NguyenHuuTien-2A202603598
 
 **Phần việc phụ trách:**
 
--
+- Phản biện candidate của các thành viên, tập trung rủi ro kỹ thuật và rủi ro AI (hallucination, Rule đủ chưa).
+- Hỗ trợ CP4 ở phần assumption / đọc lại kết quả kiểm chứng và kiểm link research.
+- Hỗ trợ CP5-CP6 rà boundary, HITL, mức Workflow và ngưỡng dừng quyết định Go.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Pitch Problem Card debug webhook / rà log; nhận phản biện về Rule/grep/alert và đồng ý bài này chưa cần chọn làm bài nhóm.
+- Đặt câu hỏi cho Đăng về hallucination pháp lý và nguy cơ tư vấn sai; góp phần để nhóm bổ sung HITL, fallback và boundary “AI không thay luật sư / không tự nộp hồ sơ”.
+- Tham gia chấm shortlist, cluster, thống nhất chọn thủ tục hộ kinh doanh F&B; hỗ trợ chốt Go pilot hẹp có ngưỡng dừng.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `group_report.md` mục 2.1 (pitch Tiến; câu hỏi Tiến hỏi Đăng; câu Đạt hỏi Tiến), mục 2.4 (shortlist Debug webhook), mục 4–8 (boundary/HITL/Workflow/Go).
+- Báo cáo cá nhân: `report/individual/2A202603598_NguyenHuuTien.md`.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Pain dự án không phải lúc nào cũng là bài nhóm tốt nhất; đôi khi Rule hoặc tool sẵn có đã đủ, còn bài pháp lý thì phải ưu tiên boundary và mức can thiệp an toàn hơn lạm dụng dùng AI.
+
